@@ -9,5 +9,5 @@ Some websites that inspired us: DeviantArt, ebay
 
 ### Walkthrough
 
-This website was built within the Cloud9 development environment, using the AMP stack (Apache, MySQL, PHP) and the Bootstrap v4.0 front-end HTML/CSS/JS framework. The majority of our files are PHP scripts, used to query MySQL tables that were set up in Cloud9, using the Terminal. Note that accessing MySQL on C9 is a bit different from accessing MySQL through your own computer's command line tool. 
+This website was built within the Cloud9 development environment, using the AMP stack (Apache, MySQL, PHP) and the Bootstrap v4.0 front-end HTML/CSS/JS framework. The majority of the project files are PHP scripts, used to query MySQL tables that were set up in Cloud9, using the Terminal. Note that accessing MySQL on C9 is a bit different from accessing MySQL through your own computer's command line tool. 
 

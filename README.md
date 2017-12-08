@@ -17,9 +17,9 @@ Below is the project walkthrough, which includes database setup and features of 
 
 Our database setup consists of a table for each of the following: users, memes, meme comments, votes, events, event submissions, and mail. The users table, outlined below, is rather simple. 
 
-+-------------+---------------------+------+-----+-------------------+----------------+
+
 | Field       | Type                | Null | Key | Default           | Extra          |
-+-------------+---------------------+------+-----+-------------------+----------------+
+| -------------+--------------------|------|-----|-------------------|----------------|
 | id          | int(10) unsigned    | NO   | PRI | NULL              | auto_increment |
 | first_name  | varchar(40)         | NO   |     | NULL              |                |
 | last_name   | varchar(40)         | NO   |     | NULL              |                |
@@ -31,7 +31,7 @@ Our database setup consists of a table for each of the following: users, memes, 
 | upvotes     | int(10) unsigned    | YES  |     | 0                 |                |
 | downvotes   | int(10) unsigned    | YES  |     | 0                 |                |
 | comments    | int(10) unsigned    | YES  |     | 0                 |                |
-+-------------+---------------------+------+-----+-------------------+----------------+ 
+
 
 
 

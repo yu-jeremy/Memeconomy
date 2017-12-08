@@ -1,4 +1,5 @@
-# Memeconomy
+# Memeconomy 
+![alt text](Memeconomy/assets/logo.png)
 A creative project completed along with a partner, shoutout to Zhi Shen Yong!
 
 ### Project Description

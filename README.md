@@ -17,7 +17,6 @@ Below is the project walkthrough, which includes database setup and features of 
 
 Our database setup consists of a table for each of the following: users, memes, meme comments, votes, events, event submissions, and mail. The users table, outlined below, is rather simple. 
 
-
 | Field       | Type                | Null | Key | Default           | Extra          |
 | ------------|:-------------------:|------|-----|-------------------|----------------|
 | id          | int(10) unsigned    | NO   | PRI | NULL              | auto_increment |
@@ -31,6 +30,27 @@ Our database setup consists of a table for each of the following: users, memes, 
 | upvotes     | int(10) unsigned    | YES  |     | 0                 |                |
 | downvotes   | int(10) unsigned    | YES  |     | 0                 |                |
 | comments    | int(10) unsigned    | YES  |     | 0                 |                |
+
+Note that we store profile pictures using file paths, while the actual files were just stored within the file system in C9. We also log when users join the website with a date_joined field that has a default value of the current timestamp. 
+
+Next, we move to the memes table, which helped store the bulk of our content (e.g. the content our website revolved around). 
+
+
+| Field       | Type             | Null | Key | Default           | Extra          |
+|-------------|------------------|------|-----|-------------------|----------------|
+| id          | int(10) unsigned | NO   | PRI | NULL              | auto_increment |
+| title       | varchar(30)      | NO   |     | NULL              |                |
+| description | text             | NO   |     | NULL              |                |
+| authorid    | int(10) unsigned | NO   | MUL | NULL              |                |
+| licensedto  | text             | YES  |     | NULL              |                |
+| datemade    | timestamp        | NO   |     | CURRENT_TIMESTAMP |                |
+| price       | int(10) unsigned | NO   |     | NULL              |                |
+| filepath    | varchar(100)     | NO   |     | NULL              |                |
+| upvotes     | int(10) unsigned | YES  |     | 0                 |                |
+| downvotes   | int(10) unsigned | YES  |     | 0                 |                |
+| forsale     | tinyint(1)       | NO   |     | NULL              |                |
+| keywords    | varchar(255)     | YES  |     | NULL              |                |
+
 
 
 

@@ -1,5 +1,5 @@
 # Memeconomy 
-![alt text](Memeconomy/assets/logo.png)
+![alt text](https://github.com/yu-jeremy/Memeconomy/edit/master/assets/logo.png)
 A creative project completed along with a partner, shoutout to Zhi Shen Yong!
 
 ### Project Description

@@ -19,7 +19,7 @@ Our database setup consists of a table for each of the following: users, memes, 
 
 
 | Field       | Type                | Null | Key | Default           | Extra          |
-| -------------+--------------------|------|-----|-------------------|----------------|
+| ------------|:-------------------:|------|-----|-------------------|----------------|
 | id          | int(10) unsigned    | NO   | PRI | NULL              | auto_increment |
 | first_name  | varchar(40)         | NO   |     | NULL              |                |
 | last_name   | varchar(40)         | NO   |     | NULL              |                |

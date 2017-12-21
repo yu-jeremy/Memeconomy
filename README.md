@@ -1,3 +1,5 @@
+![alt text](https://github.com/yu-jeremy/Memeconomy/blob/master/home_screenshot.png)
+
 ![alt text](https://github.com/yu-jeremy/Memeconomy/blob/master/assets/logo.png)
 
 # Memeconomy 

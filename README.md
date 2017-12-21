@@ -1,5 +1,3 @@
-![alt text](https://github.com/yu-jeremy/Memeconomy/blob/master/home_screenshot.png)
-
 ![alt text](https://github.com/yu-jeremy/Memeconomy/blob/master/assets/logo.png)
 
 # Memeconomy 
@@ -19,6 +17,8 @@ This website was built within the Cloud9 development environment, using the AMP 
 Bootstrap is an easy-to-use HTML/CSS/JavaScript front-end framework that can streamline and organize your web app quickly and cleanly through a useful grid system. The entire framework, in its current state (latest version 4, still in beta), is built to be responsive. 
 
 For our website, a user starts off by registering with their first name, last name, username, and password. Logging in with the latter two fields welcomes the user into the site. Upon logging in, one can see a home page that looks like this: 
+
+![alt text](https://github.com/yu-jeremy/Memeconomy/blob/master/home_screenshot.png)
 
 ### Project Walkthrough
 

@@ -16,7 +16,7 @@ This website was built within the Cloud9 development environment, using the AMP 
 
 Bootstrap is an easy-to-use HTML/CSS/JavaScript front-end framework that can streamline and organize your web app quickly and cleanly through a useful grid system. The entire framework, in its current state (latest version 4, still in beta), is built to be responsive. 
 
-For our website, a user starts off by registering with their first name, last name, username, and password. Logging in with the latter two fields welcomes the user into the site. 
+For our website, a user starts off by registering with their first name, last name, username, and password. Logging in with the latter two fields welcomes the user into the site. Upon logging in, one can see a home page that looks like this: 
 
 ### Project Walkthrough
 
@@ -24,7 +24,7 @@ Below is the project walkthrough, which includes database setup and features of 
 
 1. MySQL Database Details
 
-Our database setup consists of a table for each of the following: users, memes, meme comments, votes, events, event submissions, and mail. The users table is rather simple. Every user registers and logs in with the usual information, a first name, last name, and username. We store a default profile picture for that user using the file system in C9, but track that file by storing the file path in our database. Additionally, we log when users register with a "date joined" field that defaults to the current timestamp. 
+Our database setup consists of a table for each of the following: users, memes, meme comments, votes, events, event submissions, and mail. The users table is rather simple. Every user registers and logs in with basic information: a first name, last name, and username. We store a default profile picture for that user using the file system in C9, but track that file by storing the file path in our database (intially, the default profile picture can be found in our assets folder, a Google Drawing of a camera). Additionally, we log when users register with a "date joined" field that defaults to the current timestamp. 
 
 Next, we move to the memes table (seen below), which helps store the bulk of our content (e.g. the content our website revolved around). 
 
@@ -44,6 +44,9 @@ Next, we move to the memes table (seen below), which helps store the bulk of our
 | forsale     | tinyint(1)       | NO   |     | NULL              |                |
 | keywords    | varchar(255)     | YES  |     | NULL              |                |
 
+As you can see, a few fields are of particular interest: licensedto, filepath, upvotes/downvotes, forsale, and keywords. In this project, the "licensedto" field functions as a memory slot such that it holds the username of the original owner of a meme. We compromised with this field as figuring out a way to 
+2. File Walkthrough
+3. UI/UX Design
 
 
 

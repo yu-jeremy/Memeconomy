@@ -44,9 +44,7 @@ Next, we move to the memes table (seen below), which helps store the bulk of our
 | forsale     | tinyint(1)       | NO   |     | NULL              |                |
 | keywords    | varchar(255)     | YES  |     | NULL              |                |
 
-As you can see, a few fields are of particular interest: licensedto, filepath, upvotes/downvotes, forsale, and keywords. In this project, the "licensedto" field functions as a memory slot such that it holds the username of the original owner of a meme. We compromised with this field as figuring out a way to 
-2. File Walkthrough
-3. UI/UX Design
+As you can see, a few fields are of particular interest: licensedto, filepath, upvotes/downvotes, forsale, and keywords. In this project, the "licensedto" field functions as a memory slot such that it holds the username of the original owner of a meme. 
 
 
 
